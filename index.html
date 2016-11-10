@@ -18,27 +18,65 @@
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis massa sem. Etiam accumsan ut turpis eu aliquam. Vivamus fermentum ultrices vehicula. Fusce non nulla placerat, pharetra purus sit amet, blandit velit. Nullam ac cursus ex. Cras convallis mattis nunc ac malesuada. Pellentesque in quam porttitor, rutrum libero nec, fermentum magna. Cras metus nisl, pulvinar nec urna non, dictum euismod arcu. Duis viverra diam nec enim volutpat, vel efficitur est ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis ex lacus, semper vel facilisis iaculis, fringilla sit amet massa. Praesent efficitur erat ac maximus gravida. Mauris urna massa, condimentum ornare elit a, molestie ultrices enim. Nullam auctor dapibus commodo. Nunc rutrum nisi ac est pulvinar, quis pharetra lacus ultrices.</p>
 
-<img src="images/michigan.jpg" alt="Album cover: Michigan">
-<img src="images/illinois.jpg" alt="Album cover: Illinois" >
-<img src="images/theavalanche.jpg" alt="Album cover: The Avalanche">
-<img src="images/carrieandlowell.jpg" alt="Album cover: Carrie and Lowell">
+<img id="michigan" class="albumArt" src="images/michigan.jpg" alt="Album cover: Michigan">
+<img id="illinois" class="albumArt" src="images/illinois.jpg" alt="Album cover: Illinois">
+<img id="avalanche" class="albumArt"  src="images/theavalanche.jpg" alt="Album cover: The Avalanche">
+<img id="carrieAndLowell" class="albumArt"  src="images/carrieandlowell.jpg" alt="Album cover: Carrie and Lowell">
 
 <audio id="soundtrack" controls preload="auto">
-	<source src="audio/romulusClip.mp3" type="audio/mp3">
-	<source src="audio/romulusClip.ogg" type="audio/ogg">
 
-  <source src="audio/jacksonvilleClip.mp3" type="audio/mp3">
-  <source src="audio/jacksonvilleClip.ogg" type="audio/ogg">
+	<source src="audio/romulusClip.mp3" type="audio/mp3" class="romulus">
+	<source src="audio/romulusClip.ogg" type="audio/ogg" class="romulus">
 
-  <source src="audio/mistressWitchClip.mp3" type="audio/mp3">
-  <source src="audio/mistressWitchClip.ogg" type="audio/ogg">
 
-  <source src="audio/shouldhaveknownbetterClip.mp3" type="audio/mp3">
-	<source src="audio/shouldhaveknownbetterClip.ogg" type="audio/ogg">
+  <source src="audio/jacksonvilleClip.mp3" type="audio/mp3" class="jacksonville">
+  <source src="audio/jacksonvilleClip.ogg" type="audio/ogg"  class="jacksonville">
+
+  <source src="audio/mistressWitchClip.mp3" type="audio/mp3" class="mistressWitch">
+  <source src="audio/mistressWitchClip.ogg" type="audio/ogg" class="mistressWitch">
+
+  <source src="audio/shouldhaveknownbetterClip.mp3" type="audio/mp3" class="shouldHave">
+	<source src="audio/shouldhaveknownbetterClip.ogg"  type="audio/ogg" class="shouldHave">
+
 </audio>
 
 
+
+
+<div class="songTitle">
+  <p> "Romulus" by Sufjan Stevens</p>
+
+  <p> "Jacksonville" by Sufjan Stevens</p>
+
+  <p> "The Mistress Witch From McClure (Or, the Mind that Knows Itself)" by Sufjan Stevens</p>
+
+  <p> "Should Have Known Better" by Sufjan Stevens</p>
+
+  </div>
+
+<!--divs for the song titles
+<div class="romulus">
+  <p> "Romulus" by Sufjan Stevens</p>
+  </div>
+
+<div class="jacksonville">
+  <p> "Jacksonville" by Sufjan Stevens</p>
+  </div>
+
+<div class="mistressWitch">
+  <p> "The Mistress Witch From McClure (Or, the Mind that Knows Itself)" by Sufjan Stevens</p>
+  </div>
+
+  <div class="shouldHave">
+    <p> "Should Have Known Better" by Sufjan Stevens</p>
+  </div> -->
+
+
+
+
+<!--scripts-->
 <script src="js/jquery.min.js"></script>
+<script src="js/sampler.js"></script>
 
 </body>
 </html>
