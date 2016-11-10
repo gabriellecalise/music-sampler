@@ -31,4 +31,10 @@ $(document).ready(function() {
     });
 
 
+    $('#sufText').hide();
+    $('#sufPic').click(function() {
+    $('#sufText').slideToggle();
+    });
+
+
   });
