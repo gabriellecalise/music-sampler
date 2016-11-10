@@ -1,0 +1,20 @@
+div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#romulusTitle {
+  background: #239d9a;
+}
+
+#jacksonvilleTitle {
+  background: #ffbaa3;
+}
+
+#mistressWitchTitle {
+  background: #ffe9ad;
+}
+
+#shouldHaveTitle {
+  background: #ca6996;
+}

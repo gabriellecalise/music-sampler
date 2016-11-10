@@ -3,32 +3,29 @@ $(document).ready(function() {
 
   // function to hide all divs
   function hideAll() {
-    $('.romulus').hide();
-    $('.jacksonville').hide();
-    $('.mistressWitch').hide();
-    $('.shouldHave').hide();
+    $('#romulusTitle').hide();
+    $('#jacksonvilleTitle').hide();
+    $('#mistressWitchTitle').hide();
+    $('#shouldHaveTitle').hide();
   }
-
       hideAll();
 
     // when any of the album art icons are clicked,  the suitable div will appear
     $('.albumArt').click(function() {
-
       hideAll();
-
       // SWITCH STATEMENT
-      switch ($(this).attr("class")) {
-        case "Romulus":
-          $('.michigan').show();
+      switch ($(this).attr("id")) {
+        case "michigan":
+          $('#romulusTitle').show();
           break;
-        case "Illinois":
-          $('.jacksonville').show();
+        case "illinois":
+          $('#jacksonvilleTitle').show();
           break;
-        case "Avalanche":
-          $('.mistressWitch').show();
+        case "avalanche":
+          $('#mistressWitchTitle').show();
           break;
-        case "CarrieAndLowell":
-          $('.shouldHave').show();
+        case "carrieAndLowell":
+          $('#shouldHaveTitle').show();
           break;
       }
     });
