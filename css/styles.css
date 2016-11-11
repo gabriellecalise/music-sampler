@@ -1,20 +1,96 @@
-div {
+* {
+      box-sizing: border-box;
+      }
+
+
+
+body {
+  font-family: 'Avenir', Verdana, sans-serif;
+  font-size: 100%;
+  margin: 0;
+  background-color: #6792B5;
+}
+
+.songBox {
   text-align: center;
-  padding: 20px 0;
+  padding-bottom: 5px;
 }
 
-#romulusTitle {
-  background: #239d9a;
+
+
+h1 {
+  font-family: 'Open Sans', Verdana, sans-serif;
+  text-align: center;
+  font-size: 200%;
+  }
+
+
+
+article {
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
 }
 
-#jacksonvilleTitle {
-  background: #ffbaa3;
+#sufPic {
+  width: 100%;
 }
 
-#mistressWitchTitle {
-  background: #ffe9ad;
+
+#sufText {
+  padding: 0 20px;
+  margin: 0;
 }
 
-#shouldHaveTitle {
-  background: #ca6996;
+#caption {
+  font-size: 80%;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.albums {
+    max-width: 815px;
+    margin: auto;
+    padding: 0;
+    }
+
+footer {
+  padding: 20px;
+  width:65%;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+font-size: 110%;
+text-align: center;
+padding: 0 20px;
+}
+
+
+@media (max-width: 960px) {
+  .albums {
+      max-width: 420px;
+      }
+
+    article {
+      width: 100%;
+      margin: auto;
+      }
+
+    aside {
+      width: 100%;
+      }
+
+    footer {
+        width:80%;
+        margin: auto;
+      }
+}
+
+@media (max-width: 600px) {
+  .albums {
+      max-width: 210px;
+      }
+
 }

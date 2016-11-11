@@ -28,6 +28,11 @@ $(document).ready(function() {
           $('#shouldHaveTitle').show();
           break;
       }
+
+          $("audio").each(function() {
+            this.pause();
+            this.currentTime=0;
+          });
     });
 
 
